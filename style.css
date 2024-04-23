@@ -1,0 +1,272 @@
+a:hover {
+  text-decoration: none;
+}
+body {
+  background-color: white;
+  height: 7000px;
+  text-align: right;
+}
+#navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  transition: 0.5s;
+}
+#logo a {
+  color: white;
+}
+z #toggler {
+  position: absolute;
+  color: white;
+  left: 40px;
+  top: 15px;
+  font-size: 30px;
+}
+#nav {
+  width: 240px;
+  position: fixed;
+  right: -240px;
+  bottom: 0;
+  top: 0;
+  padding-top: 30px;
+  background-color: rgb(0, 0, 0, 0.8);
+  line-height: 2.5rem;
+  transition-duration: 0.5s;
+}
+#nav a {
+  color: white;
+  font-weight: 500px;
+  padding: 0 20px;
+}
+#nav a:hover {
+  color: #bdf;
+}
+li {
+  list-style: none;
+}
+#top-carousel .carousel-item {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+#top-carousel .carousel-overlay {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#top-carousel li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+#top-carousel .carousel-content {
+  max-width: 900px;
+  margin: 15% auto;
+  color: white;
+  padding: 0 100px;
+}
+#top-carousel .carousel-title {
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+#top-carousel .carousel-text {
+  margin-bottom: 60px;
+  font-weight: 300;
+}
+#top-carousel .carousel-btn {
+  padding: 15px 40px;
+  border-radius: 40px;
+}
+@media (min-width: 768px) {
+  #top-carousel .carousel-title {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #toggler {
+    display: none;
+  }
+  #nav {
+    width: auto;
+    position: static;
+    background-color: transparent;
+    padding-top: 0;
+  }
+  #nav li {
+    float: right;
+  }
+  #navbar {
+    display: flex;
+  }
+  #logo {
+    order: 1;
+    margin-right: auto;
+  }
+  #logo h4 {
+    margin-top: 4px;
+    margin-bottom: 0;
+  }
+}
+.about {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 40px;
+  text-align: center;
+}
+.about::before {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.services {
+  padding: 70px 0;
+  text-align: center;
+}
+.services > p {
+  color: #555;
+  font-size: 14px;
+  text-align: justify;
+  margin: 10px 55px 40px 20px;
+}
+.services > h4 {
+  font-weight: bold;
+  margin-right: 55px;
+  margin-bottom: 15px;
+}
+.states {
+  text-align: center;
+  justify-content: space-between;
+  padding: 80px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.states > .container > #hey > #hi > h2 {
+  font-weight: bold;
+  color: greenyellow;
+}
+
+.states > .container > #hey > #hi > h3 {
+  font-size: 17px;
+  color: white;
+}
+.states > .container > .section-header {
+  padding: 25px;
+}
+.states > .container > .section-header > h4 {
+  font-size: 40px;
+  color: white;
+}
+
+.states > .container > .section-header > p {
+  font-size: 20px;
+  color: white;
+}
+#skills {
+  padding: 30px;
+  text-align: center;
+}
+#skills .container > .section-header > h3 {
+  padding: 40px;
+  font-size: 40px;
+}
+#skills > .container > .section-header > p {
+  font-size: 15px;
+  width: 800px;
+  position: relative;
+  right: 160px;
+}
+#skills > .container > #skills-content {
+  padding: 10px;
+}
+.progress {
+  width: 100%;
+  height: 150%;
+  margin: 10px;
+}
+#sample {
+  width: 100%;
+
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 60px;
+  margin-top: 50px;
+  font-size: 5px;
+}
+#sample botton {
+  background-color: white;
+  box-shadow: lightgray 2px 2px 2px;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 5px;
+}
+#sample botton:hover {
+  background-color: #2c6;
+  color: white;
+  transition-duration: 0.3s;
+}
+#team {
+  text-align: center;
+  margin: 40px;
+}
+#team h4 {
+  font-weight: bold;
+  font-size: 35px;
+}
+#team p {
+  font-size: 15px;
+  margin-top: 30px;
+}
+#team img {
+  padding-top: 50px;
+  margin: 0 auto;
+  border-radius: 30 px;
+}
+#customers {
+  background-color: #f7f7f7;
+  height: 250px;
+}
+#customers h4 {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#customers img {
+  opacity: 0.5;
+  padding: 15px;
+  transition-duration: 0.4s;
+}
+
+#customers img:hover {
+  opacity: 1;
+}
+
+#customers .owl-dot {
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  outline: 0;
+  background-color: #ddd;
+}
+#customers .owl-dots {
+  text-align: center;
+}
+#customers .owl-dot.active {
+  background-color: #18d26e;
+}
